@@ -1,6 +1,6 @@
 // handle searach feature
-const handleChange = (){
-    
+const handleChange = ()=>{
+    console.log("Hello");
 }
 
 
