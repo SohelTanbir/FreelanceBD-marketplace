@@ -1,0 +1,65 @@
+
+body{
+    background: #F9F7F7;
+}
+.seller-info img{
+    width:30px;
+    height:30px;
+    margin-left: 10px;
+}
+.logout-icon{
+    font-size: 20px;
+    margin-left:5px;
+}
+.sidebar{
+    height: 100vh;
+    background:#fff;
+    box-shadow: 0 0 3px #DCDCDC;
+}
+.sidebar-item ul li{
+    margin-bottom: 25px;
+}
+.sidebar-item ul li a{
+    color: #736363;
+}
+
+.sidebar-item ul li a i{
+   padding-right: 5px;
+}
+.overview-container {
+    background: #fff;
+    padding:15px;
+    box-shadow: 0 0 3px #DCDCDC;
+}
+.total-salse{
+    background: #0F9FDC;
+}
+.dashboard-content h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #EDEDED;
+}
+.order-complete{
+    background-color: #16901B;
+}
+.order-canceled{
+    background-color: #C60707;
+}
+.total-review{
+    background-color: #D3B200;
+}
+.new-orders{
+    margin: 0 5px;
+    background: #fff;
+    padding:15px;
+    box-shadow: 0 0 3px #DCDCDC;
+    text-align: center;
+}
+.new-orders span{
+    font-size: 14px;
+    color: #000;
+}
+.canceled-orders span{
+    font-size: 14px;
+    color: #F10505;
+}

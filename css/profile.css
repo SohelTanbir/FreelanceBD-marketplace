@@ -1,0 +1,50 @@
+/*
+-----------------------------------------------------------
+-------------- Profile Section Styles --------------------
+-----------------------------------------------------------
+*/
+#header-section{
+    margin-bottom: 50px;
+}
+.profile-container{
+    box-shadow: 0 0 3px #DCDCDC;
+}
+.profile-img{
+    text-align: center;
+    padding: 10px;
+}
+.profile-img img{
+    width: 150px;
+    height: 150px;
+}
+.username{
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+}
+.profession{
+    font-size: 14px;
+    color: #736363;
+    font-weight: 400;
+    padding: 3px 0;
+}
+.rating{
+    border-bottom: 2px solid #F8F8F8;
+    padding-bottom: 20px;
+}
+.rating img{
+    width: 14px;
+    height: 14px;
+}
+.rating span{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #736363;
+    font-weight: 500;
+}
+.description p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #939393;
+    text-align: left;
+}
