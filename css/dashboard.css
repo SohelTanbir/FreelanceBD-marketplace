@@ -12,9 +12,10 @@ body{
     margin-left:5px;
 }
 .sidebar{
-    height: 100vh;
+    height: auto;
     background:#fff;
     box-shadow: 0 0 3px #DCDCDC;
+    padding-bottom: 15px;
 }
 .sidebar-item ul li{
     margin-bottom: 25px;
