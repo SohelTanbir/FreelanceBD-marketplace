@@ -11,7 +11,10 @@ $(document).ready(function(){
 for (var key in localStorage) {
 if (typeof localStorage[key] == 'string') {
     // addEvents();
-    addEvents(JSON.parse(localStorage[key]));
+    if(localStorage.length > 0){
+      const jsonData = localStorage.getItem(key)
+      addEvents(JSON.parse(jsonData));
+    }
 }
 }
 // add new event 
@@ -19,10 +22,6 @@ function addEvents(event) {
     calendar.addEvent(event, true)
     calendar.render();
 }
-// place new order
-$(".contact-btn").click(function(){
-
-})
 
 
 

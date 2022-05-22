@@ -3,42 +3,45 @@ body{
     background: #F9F7F7;
 }
 .seller-info img{
-    width:30px;
-    height:30px;
-    margin-left: 10px;
+    width:3rem;
+    height:3rem;
+    margin-left: 1rem;
 }
 .logout-icon{
-    font-size: 20px;
-    margin-left:5px;
+    font-size: 2rem;
+    margin-left:.5rem;
 }
 .sidebar{
     height: auto;
     background:#fff;
-    box-shadow: 0 0 3px #DCDCDC;
-    padding-bottom: 15px;
+    box-shadow: 0 0 .3rem #DCDCDC;
+    padding-bottom: 1.5rem;
 }
 .sidebar-item ul li{
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 .sidebar-item ul li a{
     color: #736363;
+    font-size: 1.6rem
 }
-
 .sidebar-item ul li a i{
-   padding-right: 5px;
+   padding-right: .5rem;
 }
 .overview-container {
     background: #fff;
-    padding:15px;
-    box-shadow: 0 0 3px #DCDCDC;
+    padding:1.5rem;
+    box-shadow: 0 0 .3rem #DCDCDC;
 }
 .total-salse{
     background: #0F9FDC;
 }
 .dashboard-content h4{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     color: #EDEDED;
+}
+.dashboard-content h6{
+    font-size: 1.6rem;
 }
 .order-complete{
     background-color: #16901B;
@@ -50,17 +53,21 @@ body{
     background-color: #D3B200;
 }
 .new-orders{
-    margin: 0 5px;
+    margin: 0 .5rem;
     background: #fff;
-    padding:15px;
-    box-shadow: 0 0 3px #DCDCDC;
+    padding:1.5rem;
+    box-shadow: 0 0 .3rem #DCDCDC;
     text-align: center;
 }
 .new-orders span{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #000;
 }
 .canceled-orders span{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #F10505;
+}
+/*overrite event calendar font size css*/
+#calendar table tr,th,td{
+    font-size: 1.4rem;
 }

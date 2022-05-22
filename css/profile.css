@@ -3,47 +3,49 @@
 -------------- Profile Section Styles --------------------
 -----------------------------------------------------------
 */
+
 #header-section{
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .profile-container{
-    box-shadow: 0 0 3px #DCDCDC;
+    box-shadow: 0 0 .3rem #DCDCDC;
 }
 .profile-img{
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 }
 .profile-img img{
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
+    object-fit: fill;
 }
 .username{
     font-weight: 500;
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .profession{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #736363;
     font-weight: 400;
-    padding: 3px 0;
+    padding: .3rem 0;
 }
 .rating{
-    border-bottom: 2px solid #F8F8F8;
-    padding-bottom: 20px;
+    border-bottom: .2rem solid #F8F8F8;
+    padding-bottom: 2rem;
 }
 .rating img{
-    width: 14px;
-    height: 14px;
+    width: 1.4rem;
+    height: 1.4rem;
 }
 .rating span{
-    font-size: 14px;
-    margin-left: 5px;
+    font-size: 1.4rem;
+    margin-left: .5rem;
     color: #736363;
     font-weight: 500;
 }
 .description p{
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #939393;
     text-align: left;
